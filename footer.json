@@ -1,0 +1,22 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#deals"
+    ]
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#deals"
+    ],
+    "props": {
+      "blockClass": "main-footer-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  }
+}

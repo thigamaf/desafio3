@@ -1,0 +1,247 @@
+{
+    "tab-layout#categorias":{
+        "children":[
+        "tab-list#categorias",
+        "tab-content#categorias"
+        ]
+    },
+    "tab-list#categorias":{
+        "children":[
+        "tab-list.item#1",
+        "tab-list.item#2",
+        "tab-list.item#3",
+        "tab-list.item#4",
+        "tab-list.item#5",
+        "tab-list.item#6",
+        "tab-list.item#7",
+        "tab-list.item#8",
+        "tab-list.item#9",
+        "tab-list.item#10"
+        ]
+    },
+    "tab-list.item#1":{
+        "props":{
+        "tabId": "promocao",
+        "label": "Promoção",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#2":{
+        "props":{
+        "tabId": "corinthians",
+        "label": "Corinthians",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#3":{
+        "props":{
+        "tabId": "palmeiras",
+        "label": "Palmeiras",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#4":{
+        "props":{
+        "tabId": "signos",
+        "label": "Signos",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#5":{
+        "props":{
+        "tabId": "divertidos",
+        "label": "Divertidos",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#6":{
+        "props":{
+        "tabId": "7maravilhas",
+        "label": "7 Maravilhas",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#7":{
+        "props":{
+        "tabId": "guerreiros",
+        "label": "Guerreiros",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#8":{
+        "props":{
+        "tabId": "album1",
+        "label": "Álbum 1",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#9":{
+        "props":{
+        "tabId": "album2",
+        "label": "Álbum 2",
+        "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#10":{
+        "props":{
+        "tabId": "album3",
+        "label": "Álbum 3",
+        "defaultActiveTab": true
+        }
+    },
+
+    "tab-content#categorias":{
+        "children":[
+        "tab-content.item#1",
+        "tab-content.item#2",
+        "tab-content.item#3",
+        "tab-content.item#4",
+        "tab-content.item#5",
+        "tab-content.item#6",
+        "tab-content.item#7",
+        "tab-content.item#8",
+        "tab-content.item#9",
+        "tab-content.item#10"
+        ]
+    },
+
+    "tab-content.item#1":{
+        "children":["rich-text#1"],
+        "props":{
+        "tabId":"promocao"
+        }
+    },
+    "rich-text#1":{
+        "props":{
+        "text": "Promoção",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#2":{
+    "children":["rich-text#2"],
+        "props":{
+        "tabId":"corinthians"
+        }
+    },
+    "rich-text#2":{
+        "props":{
+        "text": "Corinthians",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#3":{
+    "children":["rich-text#3"],
+        "props":{
+        "tabId":"palmeiras"
+        }
+    },
+    "rich-text#3":{
+        "props":{
+        "text": "Palmeiras",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#4":{
+    "children":["rich-text#4"],
+        "props":{
+        "tabId":"signos"
+        }
+    },
+    "rich-text#4":{
+        "props":{
+        "text": "Signos",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#5":{
+    "children":["rich-text#5"],
+        "props":{
+        "tabId":"divertidos"
+        }
+    },
+    "rich-text#5":{
+        "props":{
+        "text": "Divertidos",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#6":{
+    "children":["rich-text#6"],
+        "props":{
+        "tabId":"7maravilhas"
+        }
+    },
+    "rich-text#6":{
+        "props":{
+        "text": "7 Maravilhas",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#7":{
+    "children":["rich-text#7"],
+        "props":{
+        "tabId":"guerreiros"
+        }
+    },
+    "rich-text#7":{
+        "props":{
+        "text": "Guerreiros",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#8":{
+    "children":["rich-text#8"],
+        "props":{
+        "tabId":"album1"
+        }
+    },
+    "rich-text#8":{
+        "props":{
+        "text": "Álbum 1",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#9":{
+    "children":["rich-text#9"],
+        "props":{
+        "tabId":"album2"
+        }
+    },
+    "rich-text#9":{
+        "props":{
+        "text": "Álbum 2",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+        }
+    },
+
+    "tab-content.item#10":{
+    "children":["rich-text#10"],
+        "props":{
+        "tabId":"album3"
+        }
+    },
+    "rich-text#10":{
+    "props":{
+        "text": "Álbum 3",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+    }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "store.home": {
+    "blocks": [
+      "__fold__.experimentalLazyAssets",
+      "tab-layout#categorias",
+      "__fold__.desktop",
+      "__fold__.mobile",
+      "flex-layout.row#shelf"
+    ]
+  }
+
+}
